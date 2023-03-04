@@ -9,7 +9,7 @@ v1 = DefaultRouter()
 
 v1.register(r'v1/posts', PostViewSet, basename='post')
 v1.register(r'v1/groups', GroupViewSet, basename='group')
-v1.register('follow', FollowViewSet, basename='followers')
+v1.register(r'v1/follow', FollowViewSet, basename='follow')
 v1.register(
     r'v1/posts/(?P<post_id>\d+)/comments',
     CommentViewSet, basename='comments',
