@@ -186,7 +186,7 @@ POST /api/v1/jwt/verify/
 GET /api/v1/posts/?limit=5&offset=0
 ```
 
-## Использемые программы
+## Используемые программы
 
 * Python 3.11,
 * Django 4.2,
